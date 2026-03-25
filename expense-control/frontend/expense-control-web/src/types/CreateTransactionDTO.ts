@@ -1,5 +1,4 @@
-export interface Transaction {
-  id: string;
+export interface CreateTransactionDTO {
   description: string;
   amount: number;
   type: number;
